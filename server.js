@@ -95,7 +95,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/test', function (req, res) {
-  res.render('test.html');
+  res.render('test.html', { pageCountMessage : null});
 });
 
 app.get('/pagecount', function (req, res) {
